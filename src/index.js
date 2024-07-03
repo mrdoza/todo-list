@@ -12,6 +12,8 @@ list.innerHTML = listItems;
 format(new Date(2014, 1, 11), "yyyy-MM-dd");
 //=> '2014-02-11'
 
+console.log(Date);
+
 const dates = [
   new Date(1995, 6, 2),
   new Date(1987, 1, 11),
