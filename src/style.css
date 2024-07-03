@@ -30,14 +30,31 @@ h1 {
   border-bottom: 1px solid #e9ecef;
 }
 
-.content {
-  display: grid;
-  flex: 2;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-gap: 20px;
+.content {  
+  flex: 2;  
   padding: 20px;
   background-color: hsl(161, 89%, 79%);
   height: 100%;
   margin-top: 0;
+}
+#task_name {
+  font-size: 1.2em;
+  width: auto;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+button {
+  padding: 10px;
+  background-color: hsl(161, 34%, 58%);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 75px;
+
+}
+form {
+  display: flex;
+  flex-direction: column;
 }

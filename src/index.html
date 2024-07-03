@@ -8,7 +8,46 @@
   <body>
     <header id="title"><h1>My ToDo List</h1></header>
     <div class="main">
-      <div id="leftPane" class="menu"></div>
+      <div id="leftPane" class="menu">
+        <form action="#" method="post">
+          <h2>Add Task</h2>
+          <label for="task_name">Name:</label>
+          <input type="text" id="task_name" name="task_name" />
+
+          <label for="task_desc"></label>
+
+          <textarea rows="5" cols="30" id="task_desc" name="task_desc">
+Description</textarea
+          >
+
+          <br />
+          <label for="due_date">Due Date</label>
+
+          <input type="date" id="due_date" name="due_date" />
+
+          <h2>Priority</h2>
+          <div>
+            <input type="radio" id="low" name="priority" value="low" />
+            <label for="low">Low</label>
+          </div>
+
+          <div>
+            <input
+              type="radio"
+              id="standard"
+              name="priority"
+              value="standard"
+            />
+            <label for="standard">Standard</label>
+          </div>
+
+          <div>
+            <input type="radio" id="high" name="priority" value="high" />
+            <label for="high">High</label>
+          </div>
+          <button type="submit">Add Task</button>
+        </form>
+      </div>
       <div id="rightPane" class="content"></div>
     </div>
   </body>
