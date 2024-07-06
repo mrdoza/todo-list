@@ -71,3 +71,8 @@ form {
   margin-top: 0;
   font-size: 2em;
 }
+.entry {
+  height: 50px;
+  border-bottom: solid 2px #65e55c;
+  padding: 10px;
+}
